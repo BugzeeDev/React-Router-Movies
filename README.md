@@ -11,9 +11,9 @@
 
 ### Task 1: Project Set-up
 
-* [ ] **Fork** this repository, then clone your fork.
-* [ ] Execute `npm install` to download dependencies. The `react-router-dom` library is already installed!
-* [ ] Execute `npm run start` to launch your Movies application in Chrome.
+* [X] **Fork** this repository, then clone your fork.
+* [X] Execute `npm install` to download dependencies. The `react-router-dom` library is already installed!
+* [X] Execute `npm run start` to launch your Movies application in Chrome.
 
 **Once your application is up and running**, you should see a browser window that looks like [this](./design-files/design-1-starter.png) at `http://localhost:3000`.
 
@@ -23,12 +23,12 @@
 
 Once you are done your application will have two routes:
 
-* [ ] [Screenshot of route '/'](./design-files/design-2-routeA.png)
-* [ ] [Screenshot of route '/movies/:id'](./design-files/design-3-routeB.png)
+* [X] [Screenshot of route '/'](./design-files/design-2-routeA.png)
+* [X] [Screenshot of route '/movies/:id'](./design-files/design-3-routeB.png)
 
 #### Set up Routes
 
-* [ ] Wrap the `App` component with `BrowserRouter` in `src/index.js`.
+* [X] Wrap the `App` component with `BrowserRouter` in `src/index.js`.
 * [ ] Inside your App file add two routes.
   * [ ] one route for `/` that loads the `MovieList` component. This component will need the movies injected into it via props.
   * [ ] one route that will take an `id` parameter after`/movies/` (EG: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
