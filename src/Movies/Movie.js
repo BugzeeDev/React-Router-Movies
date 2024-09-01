@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
+import SavedList from './SavedList';
 
 export default function Movie(props) {
   const [movie, setMovie] = useState();
@@ -24,7 +25,7 @@ export default function Movie(props) {
   }, [id]);
 
   // Uncomment this only when you have moved on to the stretch goals
-  // const saveMovie = evt => { }
+  // const saveMovie = evt => { addtoSavedList(movie) }
 
   if (!movie) {
     return <div>Loading movie information...</div>;

@@ -27,6 +27,9 @@ export default function App () {
 
   const addToSavedList = id => {
     // This is stretch. Prevent the same movie from being "saved" more than once
+    if (!id) {
+      return <h3>No saved movies</h3>
+    }
   };
 
   return (
